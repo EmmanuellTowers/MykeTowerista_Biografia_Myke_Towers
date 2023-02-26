@@ -1,0 +1,911 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background: rgb(241, 241, 241);
+}
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0px 3px 7px;
+    background: rgb(20, 0, 136);
+}
+.logo{
+    width: 20%;
+    height: 50%;
+    margin-left: 20px;
+}
+.img-logo{
+    position: relative;
+    left: 45px;
+    bottom: 5px;
+    width: 100px;
+    height: 50px;
+}
+.myketowerista{
+    position: absolute;
+    right: 25%;
+    top: 10px;
+    font-size: 15px;
+    color: #9193f8;
+    font-style: italic;
+    font-family: serif;
+}
+.icon-flecha{
+    position: absolute;
+    right: 22%;
+    top: 30px;
+    color: #7d7fff;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    /* margin-bottom: 7px; */
+    margin-right: 20px;
+    /* border: 1px solid black; */
+}
+.icon{
+    font-size: 23px;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0), -1px -1px 4px black;
+    transition: .2s;
+}
+.ig{
+    border-radius: 30%;
+}
+.icon:hover{
+    font-size: 35px;
+}
+                                                .foto-myke{
+                                                    width: 70%;
+                                                    height: 350px;
+                                                    display: block;
+                                                    margin-left: auto;
+                                                    margin-right: auto;
+                                                    margin-bottom: 70px;
+                                                    outline-offset: 10px;
+                                                    outline: 1.5px solid rgb(0, 0, 0);
+                                                }
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 130px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.titulo{
+    position: relative;
+    left: 29%;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid orangered;
+    z-index: -10;
+}
+.biografia{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.titulo-biografia{
+    margin-left: 150px;
+    line-height: 35px;
+}
+.div-biografia{
+    width: 100vw;   
+    height: 35px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid bisque;
+}
+.p1{
+    line-height: 25px;
+}
+p{
+    margin: 40px;
+    font-size: 17px;
+}
+.njd{
+    width: 100%;
+    height: auto;
+    margin-bottom: 170px;
+}
+.pnjd{
+    font-size: 17px;
+    margin: 40px;
+    line-height: 25px;
+    color: transparent;
+}
+.carrera-musical{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contenido{
+    width: 70%;
+    height: auto;
+    /* border: solid 2px black; */
+}
+.div-carrera-musical{
+    width: 100%;   
+    height: 35px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid bisque;
+}
+.titulo-carrera-musical{
+    margin-left: 150px;
+    line-height: 35px;
+}
+.emb{
+    width: 70%;
+    font-weight: bolder;
+    border-bottom: 2px solid orangered;
+}
+.complete{
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
+}
+.contenedor-info-personal{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 55px;
+    width: 29%;
+    height: 570px;
+    border-radius: 10px;
+    border: 5px solid rgba(97, 70, 252, 0.836);
+    background: rgba(113, 87, 255, 0.479);
+}
+.info-personal{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+    /* background: rgba(57, 0, 75, 0.651); */
+}
+.titulo-info-personal{
+    width: 100%;
+    height: 23px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 23px;
+    background: rgba(255, 68, 0, 0.705);
+}
+.tabla-info-personal{
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid black; */
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+    font-size: 15px;
+}
+td, th{
+    border: 1px solid rgba(2, 0, 148, 0.815);
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    text-align: center;
+}
+.curiosidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    background: rgba(25, 0, 255, 0.096);
+    box-shadow: -20px -50px 50px rgba(25, 0, 255, 0.096), 985px -50px 50px rgba(25, 0, 255, 0.096),
+    -20px 50px 50px rgba(25, 0, 255, 0.096), 985px 50px 50px rgba(25, 0, 255, 0.096);
+    /* border: 1px solid black; */
+}
+.div-titulo-curiosidades{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid orangered;
+    /* background: rgba(255, 68, 0, 0.644); */
+    text-align: center;
+}
+.titulo-curiosidades{
+    margin-top: 2px;
+}
+.lista{
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid rgba(255, 68, 0, 0.473);
+}
+footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+    text-align: center;
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.div-footer{
+    width: 100%;
+    height: 100%;
+}
+.p-margen{
+    width: 100%;
+    height: 20px;
+}
+.info-footer{
+    font-size: 13px;
+}
+.mi-red-social{
+    height:  30px;
+    line-height: 30px;
+    /* background: red; */
+}
+.mi-ig{
+    font-size: 30px;
+}
+.c{
+    font-size: 13px;
+}
+
+/* DISEÑO RESPONSIVE :( */
+
+@media (max-width: 1968px){
+    .titulo{
+        width: 600px;
+        height: 200px;
+        margin-left: 150px;
+        border-bottom: 3px solid orangered;
+        font-size: 60px;
+    }
+    .foto-myke{
+        width: 1068px;
+        height: 658px;
+    }
+    .njd{
+        margin-bottom: 700px;
+    }
+    .p-margen{
+        width: auto;
+    }
+    .p1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .titulo-biografia{
+        font-size: 30px;
+    }
+    .titulo-carrera-musical{
+        font-size: 30px;
+    }
+    .titulo-info-personal{
+        font-size: 22px;
+    }
+    .titulo-curiosidades{
+        font-size: 30px;
+        width: 100%;
+    }
+    .carrera-musical{
+        margin-bottom: 100px;
+    }
+    .lista{
+        font-size: 24px;
+    }
+    .info-footer{
+        font-size: 20px;
+    }
+    th, td{
+        font-size: 20px;
+    }
+    .titulo-info-personal{
+        font-size: 23px;
+    }
+}
+@media (max-width: 1930px){
+    body{
+        overflow-x: hidden;
+    }
+    .titulo{
+        width: 700px;
+        height: 200px;
+        margin-left: 70px;
+        font-size: 60px;
+    }
+    .foto-myke{
+        width: 1000px;
+        height: 370px;
+    }
+    .p1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    th, td{
+        font-size: 20px;
+    }
+    li{
+        font-size: 24px;
+    }
+    .info-footer{
+        font-size: 20px;
+    }
+    .mi-red-social{
+        font-size: 24px;
+    }
+    .titulo-biografia{
+        font-size: 30px;
+    }
+    .titulo-carrera-musical{
+        font-size: 30px;
+    }
+    .titulo-info-personal{
+        font-size: 22px;
+    }
+    .titulo-curiosidades{
+        font-size: 30px;
+        width: 100%;
+    }
+    .njd{
+        margin-bottom: 370px;
+    }
+    .div-titulo-curiosidades{
+        width: 100%;
+    }
+}
+@media (max-width: 1790px){
+    .titulo{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1590px){
+    .titulo{
+        margin-left: 0%;
+    }
+}
+@media (max-width: 1508px){
+    .contenedor-info-personal{
+        height: 600px;
+    }
+}
+
+@media (max-width: 1440px){
+    .titulo{
+        width: 600px;
+        height: 200px;
+        margin-left: 70px;
+        font-size: 40px;
+    }
+    .foto-myke{
+        width: 740px;
+        height: 300px;
+        margin-left: 420px;
+    }
+    .contenedor-info-personal{
+        height: 599px;
+    }
+    .curiosidades{
+        box-shadow: -20px -50px 50px rgba(25, 0, 255, 0.096), 1440px -50px 50px rgba(25, 0, 255, 0.096),
+        -20px 50px 50px rgba(25, 0, 255, 0.096), 1440px 50px 50px rgba(25, 0, 255, 0.096);
+    }
+}
+
+@media (max-width: 1360px){
+    .contenedor-info-personal{
+        height: 695px;
+    }
+    .foto-myke{
+        margin-left: 300px;
+    }
+    .titulo{
+        width: 600px;
+        font-size: 35px;
+        margin-left: 5px;
+    }
+}
+@media (max-width: 1372px){
+    .contenedor-info-personal{
+        height: 650px;
+    }
+}
+@media (max-width: 1380px){
+    .contenedor-info-personal{
+        height: 670px;
+    }
+}
+@media (max-width: 1240px){
+    .p1{
+        font-size: 16px;
+    }
+    .pnjd{
+        font-size: 16px;
+    }
+    .titulo-biografia{
+        font-size: 20px;
+    }
+    .titulo-carrera-musical{
+        font-size: 20px;
+    }
+    .titulo-info-personal{
+        font-size: 16px;
+    }
+    th, td{
+        font-size: 14px;
+    }
+    .njd{
+        margin-bottom: 170px;
+    }
+    .contenedor-info-personal{
+        height: 500px;
+    }
+    .carrera-musical{
+        height: 720px;
+    } 
+    li{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1216px){
+    .contenedor-info-personal{
+        height: 520px;
+    }
+}
+@media (max-width: 1188px){
+    .contenedor-info-personal{
+        height: 500px;
+    }
+}
+@media (max-width: 1150px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1140px){
+    .contenedor-info-personal{
+        height: 500px;
+    }
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1130px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1124px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1123px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1122px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1121px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1120px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1111px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1107px){
+    .foto-myke{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1100px){
+    .contenedor-info-personal{
+        height: 500px;
+    }
+    .foto-myke{
+        margin-left: 200px;
+    }
+    .titulo{
+        margin-left: -50px;
+    }
+    li{
+        font-size: 16px;
+    }
+    .info-footer{
+        font-size: 12px;
+    }
+}
+@media (max-width: 1050px){
+    .contenedor-info-personal{
+        height: 520px;
+    }
+    .foto-myke{
+        margin-left: 150px;
+    }
+    .titulo{
+        margin-left: -50px;
+    }
+}
+@media (max-width: 1000px){
+    .contenedor-info-personal{
+        height: 600px;
+    }
+    .titulo{
+        margin-left: -70px;
+        font-size: 30px;
+    }
+    .foto-myke{
+        margin-left: 150px;
+    }
+    .titulo-biografia{
+        font-size: 20px;
+    }
+    .titulo-carrera-musical{
+        font-size: 20px;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .njd{
+        margin-bottom: 350px;
+    }
+    .pnjd{
+        font-size: 15px;
+        margin-bottom: -50px;
+    }
+    .titulo-info-personal{
+        font-size: 17px;
+    }
+    th, td{
+        font-size: 15px;
+    }
+    .titulo-curiosidades{
+        font-size: 20px;    
+    }
+    li{
+        font-size: 15px;
+    }
+    .info-footer{
+        font-size: 11px;
+    }
+    .mi-red-social{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1011px){
+    .contenedor-info-personal{
+        height: 500px;
+    }
+}
+@media (max-width: 912px){
+    .foto-myke{
+        margin-left: 100px;
+    }
+    .pc{
+        margin-bottom: -20px;
+    }
+    .contenedor-info-personal{
+        height: 600px;
+    }
+}
+@media (max-width: 900px){
+    .contenedor-info-personal{
+        height: 600px;
+    }
+    .complete{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 850px){
+    .contenedor-info-personal{
+        height: 600px;
+    }
+    .titulo-info-personal{
+        font-size: 15px;
+    }
+    th, td{
+        font-size: 13px;
+    }
+    .foto-myke{
+        margin-left: 80px;
+    }
+    .titulo{
+        margin-left: -70px;
+    }
+}
+@media (max-width: 800px){
+    .titulo{
+        width: 300px;
+        margin-left: -5px;
+    }
+    .foto-myke{
+        margin-left: 60px;
+    }
+    .titulo-info-personal{
+        font-size: 13px;
+    }
+    .contenedor-info-personal{
+        height: 600px;
+    }
+    th, td{
+        font-size: 12px;
+    }
+    .titulo-curiosidades{
+        font-size: 20px;
+    }
+    li{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px){
+    .foto-myke{
+        margin-left: 30px;
+    }
+    .pc{
+        margin-bottom: -20px;
+    }
+}
+@media (max-width: 750px){
+    .titulo{
+        width: 250px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .foto-myke{
+        margin-left: 17px;
+    }
+    .njd{
+        margin-bottom: 550px;
+    }
+    .carrera-musical{
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+        margin-bottom: 150px;
+    }
+    .titulo-info-personal{
+        font-size: 20px;
+    }
+    .contenedor-info-personal{
+        width: 60%;
+        height: 650px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    th, td{
+        font-size: 15px;
+    }
+    .div-carrera-musical{
+        width: 750px;
+    }
+    .pc{
+        width: 750px;
+    }
+    .titulo-curiosidades{
+        font-size: 20px;
+    }
+    li{
+        font-size: 15px;
+    }
+}
+@media (max-width: 700px){
+    .p1{
+        width: 690px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .njd{
+        margin-bottom: 500px;
+    }
+    .contenedor-info-personal{
+        width: 65%;
+    }
+    .contenido{
+        margin-bottom: 70px;
+    }
+    .curiosidades{
+        width: 757px;
+    }
+    .p-margen{
+        width: 700px;
+    }
+    footer{
+        width: 750px;
+    }
+    .lista{
+        width: 60%;
+    }
+}
+@media (max-width: 650px){
+    .foto-myke{
+        margin-left: 7px;
+    }
+    .p1{
+        width: 655px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .emb{
+        width: 350px;
+    }
+    .presentacion{
+        margin-bottom: 100px;
+    }
+    .contenedor-info-personal{
+        width: 70%;
+        margin-left: 150px;
+    }
+    .curiosidades{
+        box-shadow: -20px -50px 50px rgba(25, 0, 255, 0.096), 750px -50px 50px rgba(25, 0, 255, 0.096),
+        -20px 50px 50px rgba(25, 0, 255, 0.096), 750px 50px 50px rgba(25, 0, 255, 0.096);
+    }
+}
+@media (max-width: 600px){
+    .titulo{
+        margin-left: 90px;
+    }
+    .foto-myke{
+        height: 350px;
+    }
+    .presentacion{
+        margin-bottom: 100px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .emb{
+        width: 350px;
+    }
+}
+@media (max-width: 550px){
+    .presentacion{
+        margin-bottom: 50px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+}
+@media (max-width: 500px){
+    .carrera-musical{
+        margin-bottom: 200px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .contenedor-info-personal{
+        width: 100%;
+    }
+    .njd{
+        margin-bottom: 400px;
+    }
+}
+@media (max-width: 450px){
+    .titulo{
+        width: 300px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .contenedor-info-personal{
+        width: 100%;
+    }
+    .njd{
+        margin-bottom: 360px;
+    }
+}
+@media (max-width: 400px){
+    .contenedor-info-personal{
+        width: 100%;
+    }
+    .njd{
+        margin-bottom: 250px;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .curiosidades{
+        border: 1px solid rgba(25, 0, 255, 0.048);
+    }
+}
+@media (max-width: 360px){
+    .njd{
+        margin-bottom: 180px;
+    }
+}
+@media (max-width: 350px){
+    .njd{
+        margin-bottom: 100px;
+    }
+    .curiosidades{
+        border: 1px solid rgba(25, 0, 255, 0.021);
+    }
+    .titulo-curiosidades{
+        width: 100%;
+    }
+    .div-titulo-curiosidades{
+        width: 100%;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+}
+@media (max-width: 310px){
+    .njd{
+        margin-bottom: -120px;
+    }
+}
+@media (max-width: 300px){
+    .titulo{
+        width: 300px;
+        margin-left: 50%;
+    }
+    .div-biografia{
+        width: 740px;
+    }
+    .contenedor-info-personal{
+        width: 400px;
+    }
+    .njd{
+        margin-bottom: -250px;
+    }
+}
+@media (max-width: 280px){
+    .njd{
+        margin-bottom: -400px;
+    }
+}
+@media (max-width: 260px){
+    .njd{
+        margin-bottom: -500px;
+    }
+}
+@media (max-width: 250px){
+    .njd{
+        margin-bottom: -550px;
+    }
+}
+@media (max-width: 240px){
+    .njd{
+        margin-bottom: -700px;
+    }
+}
+@media (max-width: 230px){
+    .njd{
+        margin-bottom: -1000px;
+    }
+}
