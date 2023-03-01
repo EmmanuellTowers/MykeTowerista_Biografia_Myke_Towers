@@ -1,7 +1,6 @@
 
 body{
     margin: 0;
-    overflow-x: hidden;
     font-family: sans-serif;
     background: rgb(241, 241, 241);
 }
@@ -676,16 +675,23 @@ footer{
     }
 }
 @media (max-width: 750px){
+    header{
+        height: 80px;
+        z-index: 100;
+    }
     .titulo{
-        width: 250px;
-        margin-left: 50px;
+        width:300px;
+        margin-left: 10px;
         font-size: 25px;
     }
     .foto-myke{
         margin-left: 17px;
     }
     .njd{
-        margin-bottom: 550px;
+        margin-bottom: 660px;
+    }
+    .p1{
+        font-size: 16px;
     }
     .carrera-musical{
         display: flex;
@@ -703,7 +709,7 @@ footer{
         margin-bottom: 50px;
     }
     th, td{
-        font-size: 15px;
+        font-size: 16px;
     }
     .div-carrera-musical{
         width: 750px;
@@ -715,18 +721,58 @@ footer{
         font-size: 20px;
     }
     li{
-        font-size: 15px;
+        font-size: 16px;
+    }
+
+    .info-footer{
+        font-size: 14px;
+    }
+    .mi-red-social{
+        font-size: 16px;
+    }
+}
+@media (max-width: 720px){
+    footer{
+        width: 750px;
+    }
+    .info-footer{
+        font-size: 14px;
+    }
+    header{
+        width: 100%;
+    }
+    .pc{
+        width: 650px;
+    }
+    .emb{
+        margin-bottom: 70px;
+    }
+    .foto-myke{
+        width: 704px;
+        height: 389px;
+    }
+    .curiosidades{
+        width: 750px;
+    }
+}
+@media (max-width: 715px){
+    .njd{
+        margin-bottom: 730px;
     }
 }
 @media (max-width: 700px){
+    .titulo{
+        font-size: 25px;
+    }
     .p1{
         width: 690px;
+        font-size: 16px
     }
     .div-biografia{
         width: 740px;
     }
     .njd{
-        margin-bottom: 500px;
+        margin-bottom: 700px;
     }
     .contenedor-info-personal{
         width: 65%;
@@ -745,6 +791,19 @@ footer{
     }
     .lista{
         width: 60%;
+        /* font-size: 16px; */
+    }
+    li{
+        font-size: 16px;
+    }
+    .info-footer{
+        font-size: 14px;
+    }
+    .mi-red-social{
+        font-size: 17px;
+    }
+    .emb{
+        font-size: 17px;
     }
 }
 @media (max-width: 650px){
@@ -772,12 +831,32 @@ footer{
         -20px 50px 50px rgba(25, 0, 255, 0.096), 750px 50px 50px rgba(25, 0, 255, 0.096);
     }
 }
+@media (max-width: 638px){
+    .div-biografia{
+        margin-bottom: -30px;
+    }
+    .p1{
+        font-size: 17px;
+    }
+    li{
+        font-size: 17px;
+    }
+    .info-footer{
+        font-size: 14px;
+    }.mi-red-social{
+        font-size: 19px;
+    }
+    .njd{
+        margin-bottom: 600px;
+    }
+}
 @media (max-width: 600px){
     .titulo{
-        margin-left: 90px;
+        margin-left: 50px;
     }
     .foto-myke{
         height: 350px;
+        margin-left: 25px;
     }
     .presentacion{
         margin-bottom: 100px;
@@ -791,30 +870,76 @@ footer{
     .emb{
         width: 350px;
     }
+    .p1{
+        font-size: 17px;
+    }
+    li{
+        font-size: 17px;
+    }
+    .info-footer{
+        font-size: 15px;
+    }
+}
+@media (max-width: 580px){
+    .njd{
+        margin-bottom: 540px;
+    }
 }
 @media (max-width: 550px){
+    .p1{
+        font-size: 17px;
+    }
+    li{
+        font-size: 17px;
+    }
     .presentacion{
         margin-bottom: 50px;
     }
     .div-biografia{
         width: 740px;
+        margin-bottom: -20px;
+    }
+    .titulo-biografia{
+        margin-bottom: 100px;
+    }
+    .info-footer{
+        font-size: 15px;
     }
 }
 @media (max-width: 500px){
+    .p1{
+        font-size: 17px;
+    }
+    li{
+        font-size: 17px;
+    }
     .carrera-musical{
         margin-bottom: 200px;
     }
     .div-biografia{
         width: 740px;
+        margin-bottom: -20px;
     }
     .contenedor-info-personal{
         width: 100%;
     }
     .njd{
-        margin-bottom: 400px;
+        margin-bottom: 450px;
+    }
+    .info-footer{
+        font-size: 15px;
     }
 }
 @media (max-width: 450px){
+    .p1{
+        font-size: 17px;
+    }
+    li{
+        font-size: 17px;
+    }
+    .info-footer{
+        font-size: 15px;
+    }
     .titulo{
         width: 300px;
     }
@@ -829,17 +954,25 @@ footer{
     }
 }
 @media (max-width: 400px){
+    .titulo{
+        margin-left: 100px;
+    }
     .contenedor-info-personal{
         width: 100%;
     }
     .njd{
-        margin-bottom: 250px;
+        margin-bottom: 300px;
     }
     .div-biografia{
         width: 740px;
     }
     .curiosidades{
         border: 1px solid rgba(25, 0, 255, 0.048);
+    }
+}
+@media (max-width: 380px){
+    .njd{
+        margin-bottom: 250px;
     }
 }
 @media (max-width: 360px){
@@ -864,9 +997,14 @@ footer{
         width: 740px;
     }
 }
-@media (max-width: 310px){
+@media (max-width: 315px){
     .njd{
-        margin-bottom: -120px;
+        margin-bottom: -50px;
+    }
+}
+@media (max-width: 305px){
+    .njd{
+        margin-bottom: -30px;
     }
 }
 @media (max-width: 300px){
